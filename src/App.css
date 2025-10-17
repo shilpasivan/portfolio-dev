@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Poppins', sans-serif;
+  color: #f1f5f9;
+  width: auto;
+  overflow-x: hidden;
+
+}
+
+/* Add this in App.css */
+.carousel-slide {
+  padding: 10px;
+  /* controls the gap between images */
+}
+
+/* Control image size */
+.carousel-img {
+  width: 100%;             /* full width of the slide */
+  height: auto;       /* maximum height */         /* allow height to scale proportionally */
+  object-fit: contain;     /* fit entire image inside the container */
+  border-radius: 15px;     /* smooth corners */
+  display: block;          /* removes inline spacing issues */
+  margin: 0 auto;          /* center horizontally */
+}
+
+@media (max-width: 768px) {
+  .carousel-img {
+    max-height: 180px;  /* smaller height on tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-img {
+    max-height: 140px;  /* smaller height on mobile */
+  }
+}
+
+
+.slick-slide img {
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.slick-dots li button:before {
+  color: #fff;
+}

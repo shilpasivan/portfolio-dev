@@ -1,0 +1,114 @@
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1117;
+  color: #f8fafc;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #06b6d4, #7c3aed, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact-container {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(6px);
+}
+
+.contact-container h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #22d3ee;
+}
+
+.contact-container p {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #cbd5e1;
+}
+
+.contact-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contact-form label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #94a3b8;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px 15px;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  background-color: #1e293b;
+  color: #f1f5f9;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #22d3ee;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.submit-btn {
+  background-color: #22d3ee;
+  color: #0f172a;
+}
+
+.submit-btn:hover {
+  background-color: #06b6d4;
+}
+
+.clear-btn {
+  background-color: #334155;
+  color: #f1f5f9;
+}
+
+.clear-btn:hover {
+  background-color: #475569;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .contact-container {
+    padding: 20px;
+  }
+
+  .contact-container h1 {
+    font-size: 1.6rem;
+  }
+}
