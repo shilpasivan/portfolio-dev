@@ -1,7 +1,7 @@
 {
    "name": "portfolio-dev",
   "version": "1.0.0",
-  "private": true,
+  "pub": true,
   "homepage": "https://shilpasivan.github.io/portfolio-dev",
   "scripts": {
     "dev": "vite",
