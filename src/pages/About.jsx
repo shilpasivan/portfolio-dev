@@ -1,6 +1,10 @@
 import React from "react";
 import "./About.css";
+<<<<<<< HEAD
 import profileImg from "../assets/profile.png"; // adjust relative path
+=======
+import profileImg from "../portfolio-dev/assets/profile.png"; // adjust relative path
+>>>>>>> 9154f23b4c897f619cb7828ee9beb56f2054df44
 
 const About = () => {
     return (

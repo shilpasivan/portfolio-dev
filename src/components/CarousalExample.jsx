@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+<<<<<<< HEAD
 import htmlPng from '../assets/html.png';
 import cssPng from '../assets/css.png';
 import javascriptPng from '../assets/javascript.png';
@@ -9,6 +10,15 @@ import reactPng from '../assets/react.png';
 import angularPng from '../assets/angular.png';
 import gitpng from '../assets/git.png';   
 import nodePng from '../assets/node.png';
+=======
+import htmlPng from '../portfolio-dev/assets/html.png';
+import cssPng from '../portfolio-dev/assets/css.png';
+import javascriptPng from '../portfolio-dev/assets/javascript.png';
+import reactPng from '../portfolio-dev/assets/react.png';  
+import angularPng from '../portfolio-dev/assets/angular.png';
+import gitpng from '../portfolio-dev/assets/git.png';   
+import nodePng from '../portfolio-dev/assets/node.png';
+>>>>>>> 9154f23b4c897f619cb7828ee9beb56f2054df44
 const CarouselExample = () => {
   const settings = {
     dots: true,
